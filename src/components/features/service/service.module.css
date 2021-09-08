@@ -1,0 +1,53 @@
+.ipSearch {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #d2d6dd;
+    margin-right: 40px;
+}
+.btnSearch {
+    background-color: #5cb377;
+    color: white;
+    border: 1px solid #5cb377;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+}
+.btnSearch:hover{
+    background-color: #74be8b;
+    border-color: #6cbb85;
+}
+
+.ipSearch:focus{
+   border-color: #86b7fe;
+   outline: none;
+}
+select:focus{
+    border-color: #86b7fe;
+    outline: none;
+}
+.wrapSearch {
+    padding: 20px 10px;
+}
+
+input[type="text"] {
+    border: 1px solid #d2d6dd;
+}
+input[type="date"] {
+    border: 1px solid #d2d6dd;
+}
+select {
+    border: 1px solid #d2d6dd;
+}
+input[type="password"] {
+    border: 1px solid #d2d6dd;
+}
+textarea {
+    border: 1px solid #d2d6dd;
+}
+.wrapContent{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 3px
+}
